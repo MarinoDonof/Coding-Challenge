@@ -1,0 +1,111 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body section:first-child{
+    width: 1200px;
+    height: 850px;
+
+    background-color: rgba(0, 0, 0, 0.685);
+
+    border: 0px solid black;
+    border-radius: 20px;
+
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img{
+    margin-top: 90px;
+    width: 250px;
+}
+
+#Header1{
+    color: rgba(0,221,0,255);
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+#Header2{
+    width: 960px;
+    height: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0,221,0,255);
+}
+
+header button{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+}
+
+main{
+    width: 960px;
+}
+
+.Prodotto{
+    margin-top: 25px;
+}
+
+.NomeProdotto{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.InfoProdotto{
+    font: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.Carica1{
+    width: 350px;
+    height: 30px;
+    background-color: rgba(245,180,83,255);
+    border: 0px solid black;
+    border-radius: 5px;
+}
+
+.Carica2{
+    width: 570px;
+    height: 30px;
+    background-color: rgba(30,195,30,255);
+    border: 0px solid black;
+    border-radius: 5px;
+}
+
+.Carica3{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(190,65,65,255);
+    border: 0px solid black;
+    border-radius: 5px;
+}
